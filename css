@@ -1,0 +1,85 @@
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+ 
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+ 
+  main {
+    padding: 1rem;
+  }
+ 
+  section {
+    margin-bottom: 2rem;
+  }
+ 
+  h2 {
+    color: #333;
+  }
+ 
+  p, ul, label {
+    margin: 0.5rem 0;
+  }
+ 
+  /* :hover */
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+ 
+  /* :nth-child */
+  ul li:nth-child(odd) {
+    background-color: lightgray;
+  }
+ 
+  ul li:nth-child(even) {
+    background-color: white;
+  }
+ 
+  /* :focus */
+  input:focus {
+    border: 2px solid blue;
+    outline: none;
+  }
+ 
+  /* :disabled */
+  button:disabled {
+    background-color: lightgray;
+    color: darkgray;
+    border: 1px solid #ccc;
+    cursor: not-allowed;
+  }
+ 
+  /* :checked */
+  input[type="checkbox"]:checked + label {
+    font-weight: bold;
+    color: green;
+  }
+ 
+  /* :first-child dan :last-child */
+  section p:first-child {
+    font-weight: bold;
+    color: blue;
+  }
+ 
+  section p:last-child {
+    font-style: italic;
+    color: red;
+  }
+ 
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
